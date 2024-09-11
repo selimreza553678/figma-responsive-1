@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Portfolio Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+  <div class="main-header">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-primary fixed-top">
+            <div class="container">
+                <img src="images/navbar-logo.png" alt="Logo">
+                <a class="navbar-brand" href="#">SaSto</a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header text-white">
+                        <img src="images/navbar-logo.png" alt="Logo">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SaSto</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Demos</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                            <a href="#" class="text-black text-decoration-none">Login</a>
+                            <a href="#" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #FF553E;">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Background Image Section -->
+    <section class="bg-header">
+        <div class="p-5 text-center bg-image h-100vh">
+            <div class="mask">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="header-area-text text-black">
+                        <h1 class="mb-3">A collaborative  Time Tracking that you Need</h1>
+                        <p class="mb-3">An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+                        <a data-mdb-ripple-init class="btn btn-lg" href="#!" role="button"> Start 14 Days Trial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-users">
+      <div class="user-section d-flex">
+        <div class="user-response">
+          <h3>15k+</h3>
+          <p>Active user</p>
+        </div>
+        <div class="user-response">
+          <h3 class="text-center">30k</h3>
+          <p>Total Download</p>
+        </div>
+        <div class="user-response">
+          <h3>10k</h3>
+          <p>Customer</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </div>
+</body>
+
+</html>
